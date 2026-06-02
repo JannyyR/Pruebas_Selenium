@@ -1,18 +1,14 @@
-# 📦 orfeo-ng-qa-automation
+# 📦 Pruebas_Selenium
 
 > **Skina Technologies** · Suite de pruebas automatizadas, parametrizadas y de regresión funcional para la plataforma Orfeo NG Enterprise utilizando Selenium IDE.
 
 ![Selenium](https://img.shields.io/badge/-selenium-%2343B02A?style=for-the-badge\&logo=selenium\&logoColor=white)
-![JSON](https://img.shields.io/badge/json-%23000000.svg?style=for-the-badge\&logo=json\&logoColor=white)
-![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge\&logo=angular\&logoColor=white)
-![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge\&logo=php\&logoColor=white)
-![Yii2](https://img.shields.io/badge/Yii2-%23E34F26.svg?style=for-the-badge\&logo=yii\&logoColor=white)
 
 ---
 
 ## 📋 Descripción
 
-**orfeo-ng-qa-automation** es una solución de aseguramiento de calidad (QA) desarrollada durante las prácticas profesionales realizadas en **Skina Technologies S.A.S.**
+**Pruebas_Selenium** es una solución de aseguramiento de calidad (QA) desarrollada durante las prácticas profesionales realizadas en **Skina Technologies S.A.S.**
 
 El proyecto busca reducir los riesgos asociados a regresiones funcionales en **Orfeo NG Enterprise**, una plataforma SGDEA (Sistema de Gestión Documental Electrónico de Archivo), mediante la automatización de pruebas funcionales críticas utilizando Selenium IDE.
 
@@ -46,20 +42,21 @@ La suite permite validar procesos clave relacionados con:
 
 ### 📊 Dashboard
 
-* Validación de carga correcta de widgets.
 * Verificación de usuarios activos.
+* Verificacion de tablas y semaforizaciones.
 * Verificación de usuarios inactivos.
 * Consulta de usuarios por dependencia.
 
 ### 👥 Flujos multiusuario
 
 * Usuario Funcional (`ufuncional`).
-* Jefe de Dependencia (`ujefe`).
+* Usuario administrador de Gestion Documental ().
+* Usuario Ventanilla de radicacion ().
+* Usuario Jefe (`ujefe`).
 * Administrador (`admin`).
 
 ### 🧭 Navegación avanzada
 
-* Interacción con componentes Angular.
 * Automatización de menús flotantes.
 * Navegación por bandejas documentales.
 
@@ -71,22 +68,10 @@ La suite permite validar procesos clave relacionados con:
 
 ---
 
-## 🛠️ Stack Tecnológico
-
-| Componente    | Tecnología       | Propósito                 |
-| ------------- | ---------------- | ------------------------- |
-| Framework QA  | Selenium IDE     | Automatización de pruebas |
-| Frontend      | Angular / NodeJS | Interfaz de usuario       |
-| Backend       | PHP 8.x + Yii2   | Lógica de negocio         |
-| Selectores    | CSS y XPath      | Localización de elementos |
-| Formato Suite | JSON (.side)     | Configuración de pruebas  |
-
----
-
 ## 📁 Estructura del Proyecto
 
 ```text
-orfeo-ng-qa-automation/
+Pruebas_Selenium/
 │
 ├── OrfeoNG_Suite.side
 │
@@ -102,8 +87,8 @@ orfeo-ng-qa-automation/
 
 ### Requisitos Previos
 
-* Google Chrome, Microsoft Edge o Mozilla Firefox.
-* Extensión Selenium IDE instalada.
+* Mozilla Firefox.
+* Extensión Selenium IDE instalada para Firefox.
 
 ### Clonar repositorio
 
