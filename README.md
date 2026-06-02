@@ -41,7 +41,7 @@ La suite permite validar procesos clave relacionados con:
 
 ### 💬 Componentes emergentes
 
-* Validación de ventanas modales y alertas SweetAlert2.
+* Validación de ventanas modales.
 * Verificación de mensajes informativos y de error.
 
 ### 📊 Dashboard
